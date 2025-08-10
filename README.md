@@ -14,6 +14,8 @@ The system integrates real-time motion control, sensor fusion, and communication
 
 A notable benefit of completing this project using SystemVerilog is that the low-level nature of digital design allows this system to react *extremely* fast. This was a major factor in choosing this project — we can achieve a level of precision and accuracy that would be more difficult with an Arduino or standard microcontroller.
 
+**The name Polaris represents stability and guidance — just like the north star**
+
 View our project demo [here](https://tinyurl.com/mrdw7f5h).
 
 ### Key Technical Highlights
@@ -79,8 +81,3 @@ Top Level RTL:
 
 SPI with IMU RTL:
 ![image6](docs/Stabilizer-IMU%20Interface(4).jpg)
-
-
-
-
-
