@@ -3,7 +3,7 @@
 ## Contributors
 - Vikash Gunalan -- [LinkedIn](https://www.linkedin.com/in/vikash-gunalan/)
 - Soumil Verma -- [LinkedIn](https://www.linkedin.com/in/soumilverma/)
--- ** Peer Mentor:** Johnny Hazboun -- [LinkedIn](https://www.linkedin.com/in/johnny-hazboun/)
+- **Mentored By:** Johnny Hazboun -- [LinkedIn](https://www.linkedin.com/in/johnny-hazboun/)
 
 
 ## Project Overview
@@ -49,6 +49,7 @@ Top Level RTL:
 
 SPI with IMU RTL:
 ![image6](docs/Stabilizer-IMU%20Interface(4).jpg)
+
 
 
 
