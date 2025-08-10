@@ -3,7 +3,7 @@
 ## Contributors
 - Soumil Verma — [LinkedIn](https://www.linkedin.com/in/soumilverma/) — Communication Protocols & Sensor Integration Lead — Developed IMU/SPI interfaces and implemented sensor fusion for real-time control
 - Vikash Gunalan — [LinkedIn](https://www.linkedin.com/in/vikash-gunalan/) — Mechanical & Control Systems Lead — Designed motion platform and implemented PID control algorithms for real-time balancing
-- **Mentored By:** Johnny Hazboun — [LinkedIn](https://www.linkedin.com/in/johnny-hazboun/)
+- **Mentored By:** Johnny Hazboun — [LinkedIn](https://www.linkedin.com/in/johnny-hazboun/) -- Designed PCB, assisted with hardware and supplies, provided valuable guidance and mentorship throughout the project.
 
 
 ## Project Overview
@@ -14,8 +14,7 @@ The system integrates real-time motion control, sensor fusion, and communication
 
 ## External Hardware  
 Polaris uses the following key hardware components:
-- **3D Printed Components:**
-- **Platform and structural parts** (seen below)  
+- **3D Printed Components:** Platform and structural parts (seen below)  
 - **LCD Display:** TFT 1602  
 - **Custom PCB:**  
   - **IMU:** [ICM-20948 Datasheet](https://invensense.tdk.com/wp-content/uploads/2024/03/DS-000189-ICM-20948-v1.6.pdf)  
@@ -50,3 +49,4 @@ Top Level RTL:
 
 SPI with IMU RTL:
 ![image6](docs/Stabilizer-IMU%20Interface(4).jpg)
+
