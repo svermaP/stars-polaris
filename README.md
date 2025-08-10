@@ -1,9 +1,9 @@
 # Polaris
 
 ## Contributors
-- Vikash Gunalan -- [LinkedIn](https://www.linkedin.com/in/vikash-gunalan/) -- Focus on Mechanical and Control Systems
-- Soumil Verma -- [LinkedIn](https://www.linkedin.com/in/soumilverma/) -- Focus on Communication Protocols and Sensor Integration
-- **Mentored By:** Johnny Hazboun -- [LinkedIn](https://www.linkedin.com/in/johnny-hazboun/)
+- Vikash Gunalan — [LinkedIn](https://www.linkedin.com/in/vikash-gunalan/) — Mechanical & Control Systems Lead — Designed motion platform and implemented PID-based balancing algorithms  
+- Soumil Verma — [LinkedIn](https://www.linkedin.com/in/soumilverma/) — Communication Protocols & Sensor Integration Lead — Developed low-latency IMU interfaces and sensor fusion for real-time control  
+- **Mentored By:** Johnny Hazboun — [LinkedIn](https://www.linkedin.com/in/johnny-hazboun/)
 
 
 ## Project Overview
@@ -49,6 +49,7 @@ Top Level RTL:
 
 SPI with IMU RTL:
 ![image6](docs/Stabilizer-IMU%20Interface(4).jpg)
+
 
 
 
