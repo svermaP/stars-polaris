@@ -7,18 +7,39 @@
 
 
 ## Project Overview
-Polaris is a custom 2D Ball Balancer system, developed as part of the [Purdue STARS 2025](https://engineering.purdue.edu/semiconductors/stars) program.  
+We present **Polaris** — a custom 2D Ball Balancer system developed as part of the [Purdue STARS 2025](https://engineering.purdue.edu/semiconductors/stars) program.  
 Inspired by the concept of creating our own microcontroller, we designed Polaris as an Application-Specific Integrated Circuit (ASIC) prototype, implemented entirely in SystemVerilog, verified through simulation analysis in GTKWave, and tested on a Lattice ICE40 FPGA.
 
 The system integrates real-time motion control, sensor fusion, and communication protocols to stabilize a ball along two axes. While final PID tuning was not completed due to time constraints, the project successfully demonstrated all core subsystems — including sensor data acquisition, filtering, and actuator control — operating together in real time.
 
-A notable benefit of completing this project using SystemVerilog is that the low-level nature of digital design allows this system to react *extremely* fast. This was a major factor in choosing this project -- We can achieve a level of precision and accuracy that would be more difficult with an Arduino or standard microcontroller.
+A notable benefit of completing this project using SystemVerilog is that the low-level nature of digital design allows this system to react *extremely* fast. This was a major factor in choosing this project — we can achieve a level of precision and accuracy that would be more difficult with an Arduino or standard microcontroller.
+
+View our project demo [here](https://tinyurl.com/mrdw7f5h).
+
+### Key Technical Highlights
+- Implemented SPI communication with ICM-20948 IMU at 2 kHz read rate  
+- Used Q8.8 fixed-point arithmetic in SystemVerilog for low-latency performance  
+- Developed complementary filter for sensor fusion combining accelerometer and gyro data, with optional CORDIC module for arctan computation  
+- Integrated IR sensor interface for ball position tracking, using shift registers to daisy-chain 40 distinct outputs into a single input  
+- Displayed tilt and ball position via LCD screen over SPI  
+- Achieved ball stabilization with and without IMU input
+
+### Performance & Limitations
+- Achieved stable sensor data acquisition at 1 kHz accelerometer / 1.125 kHz gyro rates
+- IR Sensor reads done at 12 MHz
+- Real-time control loop functional in hardware
+- Final PID tuning incomplete due to limited testing time
+- CORDIC and Complementary Filter are computationally heavy
 
 ## Future Work
-This project can be extended to many applications! Potential future goals include:
+We can expand on this project with the following planned revisions:
+- *Implement an ALU and pipeline the complementary filter calculations to reduce the critical path*
+- *Enable manual PID tuning while the system is in use*
+- *Optimize IR sensor read handling to reduce input latency*
+
+Additionally, this project can be extended to many applications! Potential future goals include:
 - **Ball Bouncer** – Platform designed to repeatedly bounce a ping pong ball up and down
 - **Gimbal** – Precise camera stabilizer
-- **Inverted Pendulum** – Classic control systems benchmark
 
 ## External Hardware  
 Polaris uses the following key hardware components:
@@ -58,6 +79,7 @@ Top Level RTL:
 
 SPI with IMU RTL:
 ![image6](docs/Stabilizer-IMU%20Interface(4).jpg)
+
 
 
 
