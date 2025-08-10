@@ -12,6 +12,14 @@ Inspired by the concept of creating our own microcontroller, we designed Polaris
 
 The system integrates real-time motion control, sensor fusion, and communication protocols to stabilize a ball along two axes. While final PID tuning was not completed due to time constraints, the project successfully demonstrated all core subsystems — including sensor data acquisition, filtering, and actuator control — operating together in real time.
 
+A notable benefit of completing this project using SystemVerilog is that the low-level nature of digital design allows this system to be *extremely* fast. This was a major factor in choosing this project -- We can achieve a level of precision and accuracy that would be near-impossible with an Arduino or standard microcontroller.
+
+## Future Work
+This project can be extended to many applications! Potential future goals include:
+- **Ball Bouncer** – Platform designed to repeatedly bounce a ping pong ball up and down
+- **Gimbal** – Precise camera stabilizer
+- **Inverted Pendulum** – Classic control systems benchmark
+
 ## External Hardware  
 Polaris uses the following key hardware components:
 - **3D Printed Components:** Platform and structural parts (seen below)  
@@ -50,5 +58,6 @@ Top Level RTL:
 
 SPI with IMU RTL:
 ![image6](docs/Stabilizer-IMU%20Interface(4).jpg)
+
 
 
