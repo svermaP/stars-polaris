@@ -3,16 +3,16 @@
 ## Contributors
 - Soumil Verma — [LinkedIn](https://www.linkedin.com/in/soumilverma/) — Communication Protocols & Sensor Integration Lead — Developed IMU/SPI interfaces and implemented sensor fusion for real-time control
 - Vikash Gunalan — [LinkedIn](https://www.linkedin.com/in/vikash-gunalan/) — Mechanical & Control Systems Lead — Designed motion platform and implemented PID control algorithms for real-time balancing
-- **Mentored By:** Johnny Hazboun — [LinkedIn](https://www.linkedin.com/in/johnny-hazboun/) -- Designed PCB, assisted with hardware and supplies, provided valuable guidance and mentorship throughout the project.
+- **Mentored By:** Johnny Hazboun — [LinkedIn](https://www.linkedin.com/in/johnny-hazboun/) — Designed PCB, assisted with hardware and supplies, provided valuable guidance and mentorship throughout the project.
 
 
 ## Project Overview
 Polaris is a custom 2D Ball Balancer system, developed as part of the [Purdue STARS 2025](https://engineering.purdue.edu/semiconductors/stars) program.  
-Inspired by the concept of creating our own microcontroller, we designed Polaris as an Application-Specific Integrated Circuit (ASIC) prototype, implemented entirely in SystemVerilog, verified through simulation analysis in GTKWave, and tested on a Lattice ICE40 FPGA
+Inspired by the concept of creating our own microcontroller, we designed Polaris as an Application-Specific Integrated Circuit (ASIC) prototype, implemented entirely in SystemVerilog, verified through simulation analysis in GTKWave, and tested on a Lattice ICE40 FPGA.
 
 The system integrates real-time motion control, sensor fusion, and communication protocols to stabilize a ball along two axes. While final PID tuning was not completed due to time constraints, the project successfully demonstrated all core subsystems — including sensor data acquisition, filtering, and actuator control — operating together in real time.
 
-A notable benefit of completing this project using SystemVerilog is that the low-level nature of digital design allows this system to be *extremely* fast. This was a major factor in choosing this project -- We can achieve a level of precision and accuracy that would be near-impossible with an Arduino or standard microcontroller.
+A notable benefit of completing this project using SystemVerilog is that the low-level nature of digital design allows this system to react *extremely* fast. This was a major factor in choosing this project -- We can achieve a level of precision and accuracy that would be more difficult with an Arduino or standard microcontroller.
 
 ## Future Work
 This project can be extended to many applications! Potential future goals include:
@@ -58,6 +58,7 @@ Top Level RTL:
 
 SPI with IMU RTL:
 ![image6](docs/Stabilizer-IMU%20Interface(4).jpg)
+
 
 
 
