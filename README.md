@@ -1,13 +1,16 @@
 # Polaris
 
 ## Contributors
-- Vikash Gunalan — [LinkedIn](https://www.linkedin.com/in/vikash-gunalan/) — Mechanical & Control Systems Lead — Designed motion platform and implemented PID-based balancing algorithms  
-- Soumil Verma — [LinkedIn](https://www.linkedin.com/in/soumilverma/) — Communication Protocols & Sensor Integration Lead — Developed low-latency IMU interfaces and sensor fusion for real-time control  
+- Soumil Verma — [LinkedIn](https://www.linkedin.com/in/soumilverma/) — Communication Protocols & Sensor Integration Lead — Developed IMU interfaces, sensor fusion algorithms, and SPI communication for real-time control  
+- Vikash Gunalan — [LinkedIn](https://www.linkedin.com/in/vikash-gunalan/) — Mechanical & Control Systems Lead — Designed motion platform and implemented PID control logic and PWM generation for balancing algorithms  
 - **Mentored By:** Johnny Hazboun — [LinkedIn](https://www.linkedin.com/in/johnny-hazboun/)
 
 
 ## Project Overview
-We present Polaris! Polaris is a 2D Ball Balancer that was designed by STARS 2025 Team 2 by Vikash and Soumil.
+Polaris is a custom 2D Ball Balancer system, developed as part of the [Purdue STARS 2025](https://engineering.purdue.edu/semiconductors/stars) program.  
+Inspired by the concept of creating our own microcontroller, we designed Polaris as an Application-Specific Integrated Circuit (ASIC) prototype, implemented entirely in SystemVerilog, and tested using a Lattice ICE40 FPGA and GTKWave.
+
+The system integrates real-time motion control, sensor fusion, and communication protocols to stabilize a ball along two axes. While final PID tuning was not completed due to time constraints, the project successfully demonstrated all core subsystems — including sensor data acquisition, filtering, and actuator control — operating together in real time.
 
 
 ## Pin Layout
@@ -49,6 +52,7 @@ Top Level RTL:
 
 SPI with IMU RTL:
 ![image6](docs/Stabilizer-IMU%20Interface(4).jpg)
+
 
 
 
