@@ -22,6 +22,7 @@ Polaris uses the following key hardware components:
   - **Shift Registers:** [SN74AHC125 Datasheet](https://www.ti.com/lit/ds/symlink/sn74ahc125.pdf)  
   - **Level Shifter:** [SN74HC125 Datasheet](https://www.ti.com/lit/ds/symlink/sn74hc125.pdf)
 
+**Images of the platform and hardware components:** 
 ![image0](docs/IMG_4426.jpeg)
 ![image1](docs/IMG_4424.jpeg)
 ![image2](docs/IMG_4427.jpeg)
@@ -38,7 +39,7 @@ This is an example of how the system can be wired. For reference, the most impor
 This project is automatic! Once powered on via the “enable” button, Polaris automatically begins stabilizing. The user can place a ping pong ball on the platform, and the system will adjust the platform angle in real time to center the ball. If needed, the setpoint and PID gains can be adjusted to optimize performance. Play around with it and push the system to its limits!
 
 ## How to use
-The top.sv file has the main Stabilizer module instantiated, and should work as is. Make sure to configure your inputs and outputs as detailed by the comments below the instantiation. Note: All the inputs are active-high, except reset which is expected to be active low.
+The top.sv file has the main Stabilizer module instantiated, and should work as is. Make sure to configure your inputs and outputs as detailed by the comments below the instantiation. *Note: All the inputs are active-high, except reset which is expected to be active low.*
 
 
 ## RTL Diagrams
@@ -49,4 +50,5 @@ Top Level RTL:
 
 SPI with IMU RTL:
 ![image6](docs/Stabilizer-IMU%20Interface(4).jpg)
+
 
