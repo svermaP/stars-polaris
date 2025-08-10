@@ -1,8 +1,8 @@
 # Polaris
 
 ## Contributors
-- Vikash Gunalan -- [LinkedIn](https://www.linkedin.com/in/vikash-gunalan/)
-- Soumil Verma -- [LinkedIn](https://www.linkedin.com/in/soumilverma/)
+- Vikash Gunalan -- [LinkedIn](https://www.linkedin.com/in/vikash-gunalan/) -- Focus on Mechanical and Control Systems
+- Soumil Verma -- [LinkedIn](https://www.linkedin.com/in/soumilverma/) -- Focus on Communication Protocols and Sensor Integration
 - **Mentored By:** Johnny Hazboun -- [LinkedIn](https://www.linkedin.com/in/johnny-hazboun/)
 
 
@@ -49,6 +49,7 @@ Top Level RTL:
 
 SPI with IMU RTL:
 ![image6](docs/Stabilizer-IMU%20Interface(4).jpg)
+
 
 
 
