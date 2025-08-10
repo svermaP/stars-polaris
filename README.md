@@ -20,19 +20,15 @@ The system integrates real-time motion control, sensor fusion, and communication
 ![image1](docs/IMG_4424.jpeg)
 ![image2](docs/IMG_4427.jpeg)
 
+**External Hardware Components:**
+- **3D Printed Components** – Platform and structural parts (seen above)
+- **LCD Display** – TFT 1602
+- **Custom PCB**
+  - **IMU:** [ICM-20948 Datasheet](https://invensense.tdk.com/wp-content/uploads/2024/03/DS-000189-ICM-20948-v1.6.pdf)  
+  - **IR Sensor:** MH Flying Fish  
+  - **Shift Registers:** [SN74AHC125 Datasheet](https://www.ti.com/lit/ds/symlink/sn74ahc125.pdf)  
+  - **Level Shifter:** [SN74HC125 Datasheet](https://www.ti.com/lit/ds/symlink/sn74hc125.pdf)
 
-
-3D Printed Components: Seen above.
-LCD Display: TFT 1602, Seen above.
-Custom PCB:
-
-IMU: ICM-20948
-https://invensense.tdk.com/wp-content/uploads/2024/03/DS-000189-ICM-20948-v1.6.pdf 
-IR Sensor: MH Flying Fish
-Shift Registers: SNx4AHC125 Quadruple Bus Buffer Gates With 3-State Outputs                                                                                                                                              
-https://www.ti.com/lit/ds/symlink/sn74ahc125.pdf 
-Level Shifter: SNx4HC125 Quadruple Buffers with 3-State Outputs
-https://www.ti.com/lit/ds/symlink/sn74hc125.pdf?ts=1754597629858&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74HC125 
 
 Breadboarding / Wiring
 ![image3](docs/breadboard.jpg)
@@ -52,6 +48,7 @@ Top Level RTL:
 
 SPI with IMU RTL:
 ![image6](docs/Stabilizer-IMU%20Interface(4).jpg)
+
 
 
 
