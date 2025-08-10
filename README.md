@@ -1,9 +1,11 @@
 # Polaris
 
 ## Team 02 - STARS Stabilizers
-- **Peer Mentor:** [LinkedIn](https://www.linkedin.com/in/johnny-hazboun/) - Johnny Hazboun  
-- [LinkedIn](https://www.linkedin.com/in/vikash-gunalan/) - Vikash Gunalan  
-- [LinkedIn](https://www.linkedin.com/in/soumilverma/) - Soumil Verma
+- Vikash Gunalan -- [LinkedIn](https://www.linkedin.com/in/vikash-gunalan/)
+- Soumil Verma -- [LinkedIn](https://www.linkedin.com/in/soumilverma/)
+
+- **Peer Mentor:** Johnny Hazboun -- [LinkedIn](https://www.linkedin.com/in/johnny-hazboun/)
+
 
 ## Project Overview
 We present Polaris! Polaris is a 2D Ball Balancer that was designed by STARS 2025 Team 2 by Vikash and Soumil.
@@ -48,4 +50,5 @@ Top Level RTL:
 
 SPI with IMU RTL:
 ![image6](docs/Stabilizer-IMU%20Interface(4).jpg)
+
 
